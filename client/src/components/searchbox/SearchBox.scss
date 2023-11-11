@@ -1,0 +1,16 @@
+.search-box{
+    width: 100%;
+    margin: 0.5rem;
+
+    input{
+        background-color: #fff;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: none;
+        width: 80%;
+
+        &:focus{
+            border: none;
+        }
+    }
+}

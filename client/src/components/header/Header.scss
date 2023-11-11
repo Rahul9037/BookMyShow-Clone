@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(51, 53, 69);
+    justify-content: space-between;
+
+    .header-right, .header-left{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-right{
+        justify-content: space-around;
+    }
+
+    .logo{
+        max-width: 20%;
+        height: auto;
+        
+    }
+}
+
