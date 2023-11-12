@@ -11,18 +11,19 @@
     }
 
     .header-right{
-        justify-content: space-between;
+        justify-content: flex-end;
 
         div:first-child{
-            margin-left: auto;
+            width: 50%;
         }
         div{
-            margin-right: 0.5rem;
+            margin-right: 2.5rem;
         }
 
         .dropdown{
             padding: 5px;
             border-radius: 5px;
+            width: 100%;
         }
     }
 

@@ -1,0 +1,72 @@
+.homepage{
+    background-color: rgb(235, 235, 235);
+
+    .navigation-links{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(34, 37, 57);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navigation-left,.navigation-right{
+            font-size: 14px;
+            text-align: center;
+
+            span{
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .single-banner{
+        padding: 2rem;
+
+        img{
+            width: 100%;
+        }
+    }
+    .section-two{
+        padding: 0 2rem;
+
+        .recommented-movies{
+            word-break: break-word;
+            color: rgb(51, 51, 51);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.17;
+        }
+
+        .movie-cards{
+            display: flex;
+            margin: 1rem 0;
+            overflow: hidden;
+
+            .movie-card{
+                margin: 0 1rem;
+
+                img{
+                    height: auto;
+                }
+                .card-bottom{
+                    background-color: black;
+                    color: #fff;
+                    font-size: 12px;
+                    font-weight: 400;
+                    display: flex;
+                    justify-content: flex-start;
+                    padding: 1rem;
+                    margin-top: -1rem;
+
+                    .rating{
+                        display: flex;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
