@@ -11,13 +11,24 @@
     }
 
     .header-right{
-        justify-content: space-around;
+        justify-content: space-between;
+
+        div:first-child{
+            margin-left: auto;
+        }
+        div{
+            margin-right: 0.5rem;
+        }
+
+        .dropdown{
+            padding: 5px;
+            border-radius: 5px;
+        }
     }
 
     .logo{
-        max-width: 20%;
-        height: auto;
-        
+        width: 20%;
+        height: auto;        
     }
 }
 
