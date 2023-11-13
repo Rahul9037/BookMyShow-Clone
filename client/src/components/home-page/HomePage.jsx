@@ -57,38 +57,212 @@ const HomePage = () => {
                 <div className="section-two">
                     <span className="recommented-movies">Recommented Movies</span>
                     <div className="movie-cards">
-                        <div className="movie-card">
-                            <img src={movieCard}/>
-                            <div className="card-bottom">
-                                <div className="rating">
-                                    <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
-                                    <span>8.9/10</span>
-                                </div>                                
-                                <span>15.2K Votes</span>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
                             </div>
                         </div>
-                        <div className="movie-card">
-                            <img src={movieCard}/>
-                            <div className="card-bottom">
-                                <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
-                                <span>8.9/10</span>
-                                <span>15.2K Votes</span>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
                             </div>
                         </div>
-                        <div className="movie-card">
-                            <img src={movieCard}/>
-                            <div className="card-bottom">
-                                <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
-                                <span>8.9/10</span>
-                                <span>15.2K Votes</span>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
                             </div>
                         </div>
-                        <div className="movie-card">
-                            <img src={movieCard}/>
-                            <div className="card-bottom">
-                                <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
-                                <span>8.9/10</span>
-                                <span>15.2K Votes</span>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
+                            </div>
+                        </div>
+                        <div className="movie-card-wrapper">
+                            <div className="movie-card">
+                                <img src={movieCard}/>
+                                <div className="card-bottom">
+                                    <div className="rating">
+                                        <i class="fa-solid fa-star" style={{color: '#e60f0f'}}></i>
+                                        <span>8.9/10</span>
+                                    </div>                                
+                                    <span>15.2K Votes</span>
+                                </div>
+                            </div>
+                            <div className="movie-card-bottom">
+                                    <span className="movie-name">Jigarthanda Double X</span>
+                                    <span className="movie-genre">Action/Comedy/Period</span>
                             </div>
                         </div>
                     </div>
