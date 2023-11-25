@@ -27,7 +27,7 @@
             width: 100%;
         }
     }
-    .section-two{
+    .section{
         padding: 0 2rem;
 
         .recommented-movies{
@@ -40,19 +40,19 @@
 
         .movie-cards{
             display: flex;
-            margin: 1rem 0;
+            margin: 1rem;
             overflow: hidden;
 
             .movie-card-wrapper{
                 margin: 0 1rem;
 
                 .movie-card{                
-                    height: 350px;
+                    height: 315px;
                     width: auto;
                     position: relative;
     
                     img{
-                        max-width: 100%;
+                        //max-width: 100%;
                         max-height: 100%;
                     }
     
@@ -80,21 +80,76 @@
                 .movie-card-bottom{
                     display: flex;
                     flex-direction: column;
-                    margin-top: 0.2rem;
+                    margin-top: 1rem;
 
                     .movie-name{
-                        font-size: 14px;
+                        font-size: 18px;
                         font-weight: 500;
                     }
                     .movie-genre{
-                        font-size: 13px;
-                        font-weight: 300;
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: grey;
+                        margin-top: 0.5rem;
                     }
                 }
             }
 
             
         }
+
+        .scroll-button-wrapper{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            margin-top: -20%;
+            width: 95vw;
+
+            .left-button,.right-button{
+                border-radius: 50%;
+                background: grey;
+                display: flex;
+                align-items: center;
+                opacity: 70%;
+
+                svg{
+                    height: 3.5rem;
+                    width: 3rem;
+                }
+            }
+
+            .right-button{
+                margin-left: auto;
+            }
+        }
+
+        .live-event-list{
+            display: flex;
+            margin: 1rem;
+
+            .live-event-item{
+                width: 220px;
+                height: 250px;
+                background-image: url("../../assets//event.jpg");
+                margin-right: 1rem;
+                padding: 1rem;
+
+                .heading{
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 26px;
+                }
+
+                .sub-text{
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }        
+    }
+
+    .margin-top{
+        margin-top: 2rem;
     }
 
     
